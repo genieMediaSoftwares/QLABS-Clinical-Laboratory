@@ -1,0 +1,6 @@
+{
+  "name": "QLABS Clinical Laboratory",
+  "description": "ISO 15189:2022 and CAP accredited reference diagnostic laboratory in Al Karama, Dubai offering core diagnostics, preventive wellness, and home sample collection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

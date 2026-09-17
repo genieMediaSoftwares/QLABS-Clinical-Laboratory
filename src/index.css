@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-brand: #0C2340;
+  --color-brand-hover: #081829;
+  --color-brand-medium: #1B4474;
+  --color-brand-muted: #132F52;
+  --color-brand-subtle: #F0F5FA;
+  --color-accent-gold: #C5A059;
+  --color-accent-gold-hover: #B58E43;
+  --color-accent-gold-subtle: #FAF6EE;
+  --color-accent-sage: #476685;
+  --color-bg-base: #F8FAFC;
+  --color-bg-card: #FFFFFF;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color-scheme: light;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+
+/* Custom smooth scrolling offset for sticky header */
+html {
+  scroll-padding-top: 80px;
+}
+
